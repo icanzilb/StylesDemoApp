@@ -2,7 +2,7 @@
 
 A little experiment on styling SwiftUI views.
 
-<img src="etc/managed-styles.gif" width=1125 height=570 />
+<img src="etc/managed-styles.gif" width=1125 />
 
 ## Credit
 
