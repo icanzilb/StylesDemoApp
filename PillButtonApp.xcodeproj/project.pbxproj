@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D643D65B24C491FB00422F1E /* PillButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643D65A24C491FB00422F1E /* PillButtonStyle.swift */; };
+		D643D65D24C49B0A00422F1E /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643D65C24C49B0A00422F1E /* StyleManager.swift */; };
+		D643D65F24C49B3000422F1E /* ManagedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643D65E24C49B3000422F1E /* ManagedButtonStyle.swift */; };
+		D643D66124C49BC000422F1E /* ModernButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643D66024C49BC000422F1E /* ModernButtonStyle.swift */; };
+		D643D66324C4A22500422F1E /* ManagedBackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643D66224C4A22500422F1E /* ManagedBackgroundStyle.swift */; };
+		D6FFC51C24BC7AF3009D6207 /* StyleDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FFC51B24BC7AF3009D6207 /* StyleDemoApp.swift */; };
+		D6FFC51E24BC7AF3009D6207 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FFC51D24BC7AF3009D6207 /* ContentView.swift */; };
+		D6FFC52024BC7AF4009D6207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FFC51F24BC7AF4009D6207 /* Assets.xcassets */; };
+		D6FFC52F24BC7AF4009D6207 /* PillButtonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FFC52E24BC7AF4009D6207 /* PillButtonAppTests.swift */; };
+		D6FFC53A24BC7AF4009D6207 /* PillButtonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FFC53924BC7AF4009D6207 /* PillButtonAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6FFC52B24BC7AF4009D6207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FFC51024BC7AF3009D6207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FFC51724BC7AF3009D6207;
+			remoteInfo = PillButtonApp;
+		};
+		D6FFC53624BC7AF4009D6207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FFC51024BC7AF3009D6207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FFC51724BC7AF3009D6207;
+			remoteInfo = PillButtonApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D643D65A24C491FB00422F1E /* PillButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillButtonStyle.swift; sourceTree = "<group>"; };
+		D643D65C24C49B0A00422F1E /* StyleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleManager.swift; sourceTree = "<group>"; };
+		D643D65E24C49B3000422F1E /* ManagedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedButtonStyle.swift; sourceTree = "<group>"; };
+		D643D66024C49BC000422F1E /* ModernButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernButtonStyle.swift; sourceTree = "<group>"; };
+		D643D66224C4A22500422F1E /* ManagedBackgroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedBackgroundStyle.swift; sourceTree = "<group>"; };
+		D6FFC51824BC7AF3009D6207 /* PillButtonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillButtonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FFC51B24BC7AF3009D6207 /* StyleDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleDemoApp.swift; sourceTree = "<group>"; };
+		D6FFC51D24BC7AF3009D6207 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6FFC51F24BC7AF4009D6207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6FFC52424BC7AF4009D6207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FFC52524BC7AF4009D6207 /* PillButtonApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PillButtonApp.entitlements; sourceTree = "<group>"; };
+		D6FFC52A24BC7AF4009D6207 /* PillButtonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillButtonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FFC52E24BC7AF4009D6207 /* PillButtonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillButtonAppTests.swift; sourceTree = "<group>"; };
+		D6FFC53024BC7AF4009D6207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FFC53524BC7AF4009D6207 /* PillButtonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillButtonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FFC53924BC7AF4009D6207 /* PillButtonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillButtonAppUITests.swift; sourceTree = "<group>"; };
+		D6FFC53B24BC7AF4009D6207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6FFC51524BC7AF3009D6207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FFC52724BC7AF4009D6207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FFC53224BC7AF4009D6207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D643D66424C4A57800422F1E /* ManagedButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				D643D65E24C49B3000422F1E /* ManagedButtonStyle.swift */,
+				D643D66024C49BC000422F1E /* ModernButtonStyle.swift */,
+				D643D65A24C491FB00422F1E /* PillButtonStyle.swift */,
+			);
+			path = ManagedButtonStyle;
+			sourceTree = "<group>";
+		};
+		D643D66524C4A58400422F1E /* ManagedWindowStyle */ = {
+			isa = PBXGroup;
+			children = (
+				D643D66224C4A22500422F1E /* ManagedBackgroundStyle.swift */,
+			);
+			path = ManagedWindowStyle;
+			sourceTree = "<group>";
+		};
+		D643D66624C4A5E000422F1E /* StyleManager */ = {
+			isa = PBXGroup;
+			children = (
+				D643D65C24C49B0A00422F1E /* StyleManager.swift */,
+			);
+			path = StyleManager;
+			sourceTree = "<group>";
+		};
+		D643D66724C4A5EE00422F1E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D6FFC52524BC7AF4009D6207 /* PillButtonApp.entitlements */,
+				D6FFC52424BC7AF4009D6207 /* Info.plist */,
+				D6FFC51F24BC7AF4009D6207 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D6FFC50F24BC7AF3009D6207 = {
+			isa = PBXGroup;
+			children = (
+				D6FFC51A24BC7AF3009D6207 /* StyleDemoApp */,
+				D6FFC52D24BC7AF4009D6207 /* PillButtonAppTests */,
+				D6FFC53824BC7AF4009D6207 /* PillButtonAppUITests */,
+				D6FFC51924BC7AF3009D6207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6FFC51924BC7AF3009D6207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6FFC51824BC7AF3009D6207 /* PillButtonApp.app */,
+				D6FFC52A24BC7AF4009D6207 /* PillButtonAppTests.xctest */,
+				D6FFC53524BC7AF4009D6207 /* PillButtonAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6FFC51A24BC7AF3009D6207 /* StyleDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				D643D66724C4A5EE00422F1E /* Assets */,
+				D643D66624C4A5E000422F1E /* StyleManager */,
+				D643D66524C4A58400422F1E /* ManagedWindowStyle */,
+				D643D66424C4A57800422F1E /* ManagedButtonStyle */,
+				D6FFC51B24BC7AF3009D6207 /* StyleDemoApp.swift */,
+				D6FFC51D24BC7AF3009D6207 /* ContentView.swift */,
+			);
+			path = StyleDemoApp;
+			sourceTree = "<group>";
+		};
+		D6FFC52D24BC7AF4009D6207 /* PillButtonAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FFC52E24BC7AF4009D6207 /* PillButtonAppTests.swift */,
+				D6FFC53024BC7AF4009D6207 /* Info.plist */,
+			);
+			path = PillButtonAppTests;
+			sourceTree = "<group>";
+		};
+		D6FFC53824BC7AF4009D6207 /* PillButtonAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FFC53924BC7AF4009D6207 /* PillButtonAppUITests.swift */,
+				D6FFC53B24BC7AF4009D6207 /* Info.plist */,
+			);
+			path = PillButtonAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6FFC51724BC7AF3009D6207 /* PillButtonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FFC53E24BC7AF4009D6207 /* Build configuration list for PBXNativeTarget "PillButtonApp" */;
+			buildPhases = (
+				D6FFC51424BC7AF3009D6207 /* Sources */,
+				D6FFC51524BC7AF3009D6207 /* Frameworks */,
+				D6FFC51624BC7AF3009D6207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PillButtonApp;
+			productName = PillButtonApp;
+			productReference = D6FFC51824BC7AF3009D6207 /* PillButtonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6FFC52924BC7AF4009D6207 /* PillButtonAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FFC54124BC7AF4009D6207 /* Build configuration list for PBXNativeTarget "PillButtonAppTests" */;
+			buildPhases = (
+				D6FFC52624BC7AF4009D6207 /* Sources */,
+				D6FFC52724BC7AF4009D6207 /* Frameworks */,
+				D6FFC52824BC7AF4009D6207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FFC52C24BC7AF4009D6207 /* PBXTargetDependency */,
+			);
+			name = PillButtonAppTests;
+			productName = PillButtonAppTests;
+			productReference = D6FFC52A24BC7AF4009D6207 /* PillButtonAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6FFC53424BC7AF4009D6207 /* PillButtonAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FFC54424BC7AF4009D6207 /* Build configuration list for PBXNativeTarget "PillButtonAppUITests" */;
+			buildPhases = (
+				D6FFC53124BC7AF4009D6207 /* Sources */,
+				D6FFC53224BC7AF4009D6207 /* Frameworks */,
+				D6FFC53324BC7AF4009D6207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FFC53724BC7AF4009D6207 /* PBXTargetDependency */,
+			);
+			name = PillButtonAppUITests;
+			productName = PillButtonAppUITests;
+			productReference = D6FFC53524BC7AF4009D6207 /* PillButtonAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6FFC51024BC7AF3009D6207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D6FFC51724BC7AF3009D6207 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D6FFC52924BC7AF4009D6207 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D6FFC51724BC7AF3009D6207;
+					};
+					D6FFC53424BC7AF4009D6207 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D6FFC51724BC7AF3009D6207;
+					};
+				};
+			};
+			buildConfigurationList = D6FFC51324BC7AF3009D6207 /* Build configuration list for PBXProject "PillButtonApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6FFC50F24BC7AF3009D6207;
+			productRefGroup = D6FFC51924BC7AF3009D6207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6FFC51724BC7AF3009D6207 /* PillButtonApp */,
+				D6FFC52924BC7AF4009D6207 /* PillButtonAppTests */,
+				D6FFC53424BC7AF4009D6207 /* PillButtonAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6FFC51624BC7AF3009D6207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FFC52024BC7AF4009D6207 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FFC52824BC7AF4009D6207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FFC53324BC7AF4009D6207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6FFC51424BC7AF3009D6207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FFC51E24BC7AF3009D6207 /* ContentView.swift in Sources */,
+				D643D65D24C49B0A00422F1E /* StyleManager.swift in Sources */,
+				D643D66324C4A22500422F1E /* ManagedBackgroundStyle.swift in Sources */,
+				D643D66124C49BC000422F1E /* ModernButtonStyle.swift in Sources */,
+				D643D65F24C49B3000422F1E /* ManagedButtonStyle.swift in Sources */,
+				D643D65B24C491FB00422F1E /* PillButtonStyle.swift in Sources */,
+				D6FFC51C24BC7AF3009D6207 /* StyleDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FFC52624BC7AF4009D6207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FFC52F24BC7AF4009D6207 /* PillButtonAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FFC53124BC7AF4009D6207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FFC53A24BC7AF4009D6207 /* PillButtonAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6FFC52C24BC7AF4009D6207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FFC51724BC7AF3009D6207 /* PillButtonApp */;
+			targetProxy = D6FFC52B24BC7AF4009D6207 /* PBXContainerItemProxy */;
+		};
+		D6FFC53724BC7AF4009D6207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FFC51724BC7AF3009D6207 /* PillButtonApp */;
+			targetProxy = D6FFC53624BC7AF4009D6207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6FFC53C24BC7AF4009D6207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6FFC53D24BC7AF4009D6207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D6FFC53F24BC7AF4009D6207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StyleDemoApp/Assets/PillButtonApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StyleDemoApp/Assets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.underplot.PillButtonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D6FFC54024BC7AF4009D6207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StyleDemoApp/Assets/PillButtonApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StyleDemoApp/Assets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.underplot.PillButtonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D6FFC54224BC7AF4009D6207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PillButtonAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.underplot.PillButtonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PillButtonApp.app/Contents/MacOS/PillButtonApp";
+			};
+			name = Debug;
+		};
+		D6FFC54324BC7AF4009D6207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PillButtonAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.underplot.PillButtonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PillButtonApp.app/Contents/MacOS/PillButtonApp";
+			};
+			name = Release;
+		};
+		D6FFC54524BC7AF4009D6207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PillButtonAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.underplot.PillButtonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PillButtonApp;
+			};
+			name = Debug;
+		};
+		D6FFC54624BC7AF4009D6207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PillButtonAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.underplot.PillButtonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PillButtonApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6FFC51324BC7AF3009D6207 /* Build configuration list for PBXProject "PillButtonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FFC53C24BC7AF4009D6207 /* Debug */,
+				D6FFC53D24BC7AF4009D6207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FFC53E24BC7AF4009D6207 /* Build configuration list for PBXNativeTarget "PillButtonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FFC53F24BC7AF4009D6207 /* Debug */,
+				D6FFC54024BC7AF4009D6207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FFC54124BC7AF4009D6207 /* Build configuration list for PBXNativeTarget "PillButtonAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FFC54224BC7AF4009D6207 /* Debug */,
+				D6FFC54324BC7AF4009D6207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FFC54424BC7AF4009D6207 /* Build configuration list for PBXNativeTarget "PillButtonAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FFC54524BC7AF4009D6207 /* Debug */,
+				D6FFC54624BC7AF4009D6207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6FFC51024BC7AF3009D6207 /* Project object */;
+}
